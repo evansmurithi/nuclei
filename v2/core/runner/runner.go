@@ -18,7 +18,7 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/hmap/store/hybrid"
-	"github.com/projectdiscovery/nuclei/v2/internal/colorizer"
+	"github.com/projectdiscovery/nuclei/v2/core/colorizer"
 	"github.com/projectdiscovery/nuclei/v2/pkg/catalog"
 	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
 	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/loader"
