@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	ps "github.com/shirou/gopsutil/v3/process"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/evansmurithi/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/stringsutil"
 )
 

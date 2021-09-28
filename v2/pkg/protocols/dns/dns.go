@@ -7,10 +7,10 @@ import (
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/replacer"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/dns/dnsclientpool"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/replacer"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/dns/dnsclientpool"
 	"github.com/projectdiscovery/retryabledns"
 )
 

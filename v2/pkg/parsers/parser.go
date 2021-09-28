@@ -8,13 +8,13 @@ import (
 
 	"gopkg.in/yaml.v2"
 
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog/loader/filter"
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/templates"
+	"github.com/evansmurithi/nuclei/v2/pkg/templates/cache"
+	"github.com/evansmurithi/nuclei/v2/pkg/utils"
+	"github.com/evansmurithi/nuclei/v2/pkg/utils/stats"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/loader/filter"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates/cache"
-	"github.com/projectdiscovery/nuclei/v2/pkg/utils"
-	"github.com/projectdiscovery/nuclei/v2/pkg/utils/stats"
 )
 
 const mandatoryFieldMissingTemplate = "mandatory '%s' field is missing"

@@ -3,8 +3,8 @@ package gitlab
 import (
 	"github.com/xanzy/go-gitlab"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
+	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/evansmurithi/nuclei/v2/pkg/reporting/format"
 )
 
 // Integration is a client for an issue tracker integration

@@ -3,19 +3,19 @@ package protocols
 import (
 	"go.uber.org/ratelimit"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/extractors"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v2/pkg/projectfile"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/hosterrorscache"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/headless/engine"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog"
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators/extractors"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators/matchers"
+	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/evansmurithi/nuclei/v2/pkg/progress"
+	"github.com/evansmurithi/nuclei/v2/pkg/projectfile"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/hosterrorscache"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/interactsh"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/headless/engine"
+	"github.com/evansmurithi/nuclei/v2/pkg/reporting"
+	"github.com/evansmurithi/nuclei/v2/pkg/types"
 )
 
 // Executer is an interface implemented any protocol based request executer.

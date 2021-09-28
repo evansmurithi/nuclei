@@ -1,13 +1,13 @@
 package clusterer
 
 import (
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators"
+	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/http"
+	"github.com/evansmurithi/nuclei/v2/pkg/templates"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates"
 )
 
 // Executer executes a group of requests for a protocol for a clustered

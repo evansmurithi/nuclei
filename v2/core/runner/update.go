@@ -24,9 +24,9 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/pkg/errors"
 
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/nuclei-updatecheck-api/client"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
 
 	"github.com/tj/go-update"
 	"github.com/tj/go-update/progress"

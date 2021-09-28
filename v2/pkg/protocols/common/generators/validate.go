@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/evansmurithi/nuclei/v2/pkg/types"
 )
 
 // validate validates the payloads if any.

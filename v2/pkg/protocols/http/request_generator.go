@@ -1,8 +1,8 @@
 package http
 
 import (
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/generators"
 )
 
 // requestGenerator generates requests sequentially based on various
@@ -63,7 +63,6 @@ func (r *requestGenerator) nextValue() (value string, payloads map[string]interf
 		}
 	}
 
-	
 	if len(r.request.Raw) > 0 && r.currentIndex < len(r.request.Raw) {
 		if r.payloadIterator != nil {
 			payload, ok := r.payloadIterator.Value()

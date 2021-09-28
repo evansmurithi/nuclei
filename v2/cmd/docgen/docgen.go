@@ -10,10 +10,10 @@ import (
 	"strings"
 
 	"github.com/alecthomas/jsonschema"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates"
+	"github.com/evansmurithi/nuclei/v2/pkg/templates"
 )
 
-var pathRegex = regexp.MustCompile(`github.com/projectdiscovery/nuclei/v2/(?:internal|pkg)/(?:.*/)?([A-Za-z\.]+)`)
+var pathRegex = regexp.MustCompile(`github.com/evansmurithi/nuclei/v2/(?:internal|pkg)/(?:.*/)?([A-Za-z\.]+)`)
 
 func main() {
 	// Generate yaml syntax documentation

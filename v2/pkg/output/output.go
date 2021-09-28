@@ -11,11 +11,11 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
 
+	"github.com/evansmurithi/nuclei/v2/core/colorizer"
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
+	"github.com/evansmurithi/nuclei/v2/pkg/operators"
 	"github.com/projectdiscovery/interactsh/pkg/server"
-	"github.com/projectdiscovery/nuclei/v2/core/colorizer"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
 )
 
 // Writer is an interface which writes output to somewhere for nuclei events.

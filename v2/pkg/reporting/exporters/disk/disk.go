@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
+	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/evansmurithi/nuclei/v2/pkg/reporting/format"
 )
 
 type Exporter struct {

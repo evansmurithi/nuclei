@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/projectdiscovery/nuclei/v2/core/testutils"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
+	"github.com/evansmurithi/nuclei/v2/core/testutils"
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
 )
 
 func TestFindInputPaths(t *testing.T) {

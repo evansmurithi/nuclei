@@ -3,13 +3,13 @@ package loader
 import (
 	"errors"
 
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog"
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog/loader/filter"
+	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
+	"github.com/evansmurithi/nuclei/v2/pkg/parsers"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/evansmurithi/nuclei/v2/pkg/templates"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/loader/filter"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/parsers"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates"
 )
 
 // Config contains the configuration options for the loader

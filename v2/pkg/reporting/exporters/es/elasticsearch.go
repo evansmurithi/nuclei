@@ -11,9 +11,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
+	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/protocolstate"
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/protocolstate"
 )
 
 // Options contains necessary options required for elasticsearch communicaiton
@@ -105,9 +105,9 @@ func (i *Exporter) Export(event *output.ResultEvent) error {
 
 	res, err := i.elasticsearch.Do(req)
 	if err != nil {
-		return err	
+		return err
 	}
-	
+
 	b, err = ioutil.ReadAll(res.Body)
 	if err != nil {
 		return errors.New(err.Error() + "error thrown by elasticsearch " + string(b))

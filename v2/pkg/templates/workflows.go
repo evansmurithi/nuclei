@@ -1,11 +1,11 @@
 package templates
 
 import (
+	"github.com/evansmurithi/nuclei/v2/pkg/model"
+	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/evansmurithi/nuclei/v2/pkg/workflows"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/workflows"
 )
 
 // compileWorkflow compiles the workflow for execution

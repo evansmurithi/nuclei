@@ -5,8 +5,8 @@ import (
 
 	"github.com/logrusorgru/aurora"
 
+	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
 )
 
 const (

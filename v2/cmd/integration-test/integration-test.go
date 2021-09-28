@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/evansmurithi/nuclei/v2/core/testutils"
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v2/core/testutils"
 )
 
 var (

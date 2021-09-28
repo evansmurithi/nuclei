@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/evansmurithi/nuclei/v2/core/testutils"
+	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/core/testutils"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
 	"github.com/stretchr/testify/require"
 )
 

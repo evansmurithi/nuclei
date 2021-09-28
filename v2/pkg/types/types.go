@@ -1,8 +1,8 @@
 package types
 
 import (
+	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
 	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
 )
 
 // Options contains the configuration options for nuclei scanner.
