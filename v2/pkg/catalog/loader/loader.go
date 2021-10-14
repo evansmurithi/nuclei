@@ -3,12 +3,12 @@ package loader
 import (
 	"errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog"
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/loader/filter"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/parsers"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
-	"github.com/evansmurithi/nuclei/v2/pkg/templates"
+	"github.com/onaio/nuclei/v2/pkg/catalog"
+	"github.com/onaio/nuclei/v2/pkg/catalog/loader/filter"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/parsers"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/templates"
 	"github.com/projectdiscovery/gologger"
 )
 

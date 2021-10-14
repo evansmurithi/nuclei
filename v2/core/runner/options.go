@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/protocolinit"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/catalog/config"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/protocolinit"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/formatter"
 	"github.com/projectdiscovery/gologger/levels"

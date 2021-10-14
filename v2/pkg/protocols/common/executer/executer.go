@@ -3,8 +3,8 @@ package executer
 import (
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
 	"github.com/projectdiscovery/gologger"
 )
 

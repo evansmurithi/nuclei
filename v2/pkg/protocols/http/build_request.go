@@ -16,10 +16,10 @@ import (
 	"github.com/corpix/uarand"
 	"github.com/pkg/errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/http/race"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/http/raw"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/onaio/nuclei/v2/pkg/protocols/http/race"
+	"github.com/onaio/nuclei/v2/pkg/protocols/http/raw"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
 )

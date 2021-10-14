@@ -3,8 +3,8 @@ package dns
 import (
 	"net/url"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
 )

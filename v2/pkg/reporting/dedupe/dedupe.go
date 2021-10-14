@@ -14,8 +14,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/types"
 )
 
 // Storage is a duplicate detecting storage for nuclei scan events.

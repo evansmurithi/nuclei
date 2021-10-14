@@ -3,7 +3,7 @@ package http
 import (
 	"testing"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/generators"
 	"github.com/stretchr/testify/require"
 )
 

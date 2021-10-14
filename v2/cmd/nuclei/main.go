@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/evansmurithi/nuclei/v2/core/runner"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/core/runner"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 )

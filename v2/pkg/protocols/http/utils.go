@@ -10,8 +10,8 @@ import (
 	"net/http/httputil"
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/tostring"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/tostring"
 	"github.com/projectdiscovery/rawhttp"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"

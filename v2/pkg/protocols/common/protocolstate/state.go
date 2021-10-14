@@ -1,7 +1,7 @@
 package protocolstate
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/fastdialer/fastdialer"
 )

@@ -2,11 +2,11 @@ package protocolinit
 
 import (
 	"github.com/corpix/uarand"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/protocolstate"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/dns/dnsclientpool"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/http/httpclientpool"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/network/networkclientpool"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/protocolstate"
+	"github.com/onaio/nuclei/v2/pkg/protocols/dns/dnsclientpool"
+	"github.com/onaio/nuclei/v2/pkg/protocols/http/httpclientpool"
+	"github.com/onaio/nuclei/v2/pkg/protocols/network/networkclientpool"
+	"github.com/onaio/nuclei/v2/pkg/types"
 )
 
 // Init initializes the client pools for the protocols

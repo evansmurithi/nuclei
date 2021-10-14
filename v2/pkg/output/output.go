@@ -11,10 +11,10 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
 
-	"github.com/evansmurithi/nuclei/v2/core/colorizer"
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/core/colorizer"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/operators"
 	"github.com/projectdiscovery/interactsh/pkg/server"
 )
 

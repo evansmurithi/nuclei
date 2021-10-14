@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/tostring"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/tostring"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
 	"github.com/remeh/sizedwaitgroup"

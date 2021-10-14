@@ -1,7 +1,7 @@
 package workflows
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/output"
 	"github.com/projectdiscovery/gologger"
 	"github.com/remeh/sizedwaitgroup"
 	"go.uber.org/atomic"

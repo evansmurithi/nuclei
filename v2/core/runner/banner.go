@@ -3,7 +3,7 @@ package runner
 import (
 	"fmt"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
+	"github.com/onaio/nuclei/v2/pkg/catalog/config"
 	"github.com/projectdiscovery/gologger"
 )
 

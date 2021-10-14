@@ -1,7 +1,7 @@
 package runner
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/templates"
+	"github.com/onaio/nuclei/v2/pkg/templates"
 	"github.com/projectdiscovery/gologger"
 	"github.com/remeh/sizedwaitgroup"
 	"go.uber.org/atomic"

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/evansmurithi/nuclei/v2/core/testutils"
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
+	"github.com/onaio/nuclei/v2/core/testutils"
+	"github.com/onaio/nuclei/v2/pkg/catalog/config"
 	"github.com/projectdiscovery/gologger"
 	"github.com/stretchr/testify/require"
 )

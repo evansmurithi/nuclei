@@ -1,9 +1,9 @@
 package parsers
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/loader/filter"
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/catalog/loader/filter"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
 	"github.com/projectdiscovery/gologger"
 )
 

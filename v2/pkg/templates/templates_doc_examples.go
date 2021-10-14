@@ -3,16 +3,16 @@
 package templates
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/stringslice"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/extractors"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/matchers"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/dns"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/file"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/http"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/network"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/model/types/stringslice"
+	"github.com/onaio/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/pkg/operators/extractors"
+	"github.com/onaio/nuclei/v2/pkg/operators/matchers"
+	"github.com/onaio/nuclei/v2/pkg/protocols/dns"
+	"github.com/onaio/nuclei/v2/pkg/protocols/file"
+	"github.com/onaio/nuclei/v2/pkg/protocols/http"
+	"github.com/onaio/nuclei/v2/pkg/protocols/network"
 )
 
 var (

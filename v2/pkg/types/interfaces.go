@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
 )
 
 // JSONScalarToString converts an interface coming from json to string

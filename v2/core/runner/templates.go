@@ -7,9 +7,9 @@ import (
 
 	"github.com/karrick/godirwalk"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/parsers"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/parsers"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/gologger"
 )
 

@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/Knetic/govaluate"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/helpers/deserialization"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/helpers/deserialization"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/gologger"
 	"github.com/spaolacci/murmur3"
 )

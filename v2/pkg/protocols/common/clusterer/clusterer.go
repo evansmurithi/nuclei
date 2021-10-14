@@ -1,7 +1,7 @@
 package clusterer
 
 import (
-	"github.com/evansmurithi/nuclei/v2/pkg/templates"
+	"github.com/onaio/nuclei/v2/pkg/templates"
 )
 
 // Cluster clusters a list of templates into a lesser number if possible based

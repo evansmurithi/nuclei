@@ -8,12 +8,12 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/loader/filter"
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/templates"
-	"github.com/evansmurithi/nuclei/v2/pkg/templates/cache"
-	"github.com/evansmurithi/nuclei/v2/pkg/utils"
-	"github.com/evansmurithi/nuclei/v2/pkg/utils/stats"
+	"github.com/onaio/nuclei/v2/pkg/catalog/loader/filter"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/templates"
+	"github.com/onaio/nuclei/v2/pkg/templates/cache"
+	"github.com/onaio/nuclei/v2/pkg/utils"
+	"github.com/onaio/nuclei/v2/pkg/utils/stats"
 	"github.com/projectdiscovery/gologger"
 )
 

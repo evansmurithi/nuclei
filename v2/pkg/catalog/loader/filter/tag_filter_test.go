@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
 )
 
 func TestTagBasedFilter(t *testing.T) {

@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/evansmurithi/nuclei/v2/core/testutils"
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/extractors"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/matchers"
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/core/testutils"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/pkg/operators/extractors"
+	"github.com/onaio/nuclei/v2/pkg/operators/matchers"
+	"github.com/onaio/nuclei/v2/pkg/output"
 )
 
 func TestNetworkExecuteWithResults(t *testing.T) {

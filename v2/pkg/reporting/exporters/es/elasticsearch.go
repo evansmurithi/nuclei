@@ -11,8 +11,8 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/protocolstate"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/protocolstate"
 	"github.com/pkg/errors"
 )
 

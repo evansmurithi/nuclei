@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/andygrunwald/go-jira"
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/reporting/format"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/catalog/config"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/reporting/format"
+	"github.com/onaio/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/gologger"
 )
 

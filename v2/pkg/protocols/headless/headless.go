@@ -3,9 +3,9 @@ package headless
 import (
 	"github.com/pkg/errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/headless/engine"
+	"github.com/onaio/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/protocols/headless/engine"
 )
 
 // Request contains a Headless protocol request to be made from a template

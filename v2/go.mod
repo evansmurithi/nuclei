@@ -1,4 +1,4 @@
-module github.com/evansmurithi/nuclei/v2
+module github.com/onaio/nuclei/v2
 
 go 1.17
 

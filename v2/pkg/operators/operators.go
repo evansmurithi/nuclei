@@ -3,8 +3,8 @@ package operators
 import (
 	"github.com/pkg/errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/extractors"
-	"github.com/evansmurithi/nuclei/v2/pkg/operators/matchers"
+	"github.com/onaio/nuclei/v2/pkg/operators/extractors"
+	"github.com/onaio/nuclei/v2/pkg/operators/matchers"
 )
 
 // Operators contains the operators that can be applied on protocols

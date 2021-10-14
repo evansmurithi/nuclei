@@ -9,12 +9,12 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/executer"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/offlinehttp"
-	"github.com/evansmurithi/nuclei/v2/pkg/templates/cache"
-	"github.com/evansmurithi/nuclei/v2/pkg/utils"
+	"github.com/onaio/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/executer"
+	"github.com/onaio/nuclei/v2/pkg/protocols/offlinehttp"
+	"github.com/onaio/nuclei/v2/pkg/templates/cache"
+	"github.com/onaio/nuclei/v2/pkg/utils"
 )
 
 var (

@@ -3,7 +3,7 @@ package main
 import (
 	"net"
 
-	"github.com/evansmurithi/nuclei/v2/core/testutils"
+	"github.com/onaio/nuclei/v2/core/testutils"
 )
 
 var networkTestcases = map[string]testutils.TestCase{

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/output"
 	"github.com/stretchr/testify/require"
 )
 

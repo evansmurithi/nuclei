@@ -6,11 +6,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/operators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/evansmurithi/nuclei/v2/pkg/protocols/network/networkclientpool"
+	"github.com/onaio/nuclei/v2/pkg/operators"
+	"github.com/onaio/nuclei/v2/pkg/protocols"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/onaio/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/onaio/nuclei/v2/pkg/protocols/network/networkclientpool"
 	"github.com/projectdiscovery/fastdialer/fastdialer"
 )
 

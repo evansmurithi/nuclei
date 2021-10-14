@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/catalog/config"
-	"github.com/evansmurithi/nuclei/v2/pkg/utils"
+	"github.com/onaio/nuclei/v2/pkg/catalog/config"
+	"github.com/onaio/nuclei/v2/pkg/utils"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model"
-	"github.com/evansmurithi/nuclei/v2/pkg/output"
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/model"
+	"github.com/onaio/nuclei/v2/pkg/output"
+	"github.com/onaio/nuclei/v2/pkg/types"
 )
 
 // Summary returns a formatted built one line summary of the event

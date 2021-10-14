@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/stringslice"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/model/types/stringslice"
 
 	"gopkg.in/yaml.v2"
 

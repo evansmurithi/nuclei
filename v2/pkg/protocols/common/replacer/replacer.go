@@ -3,7 +3,7 @@ package replacer
 import (
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/types"
+	"github.com/onaio/nuclei/v2/pkg/types"
 )
 
 // Payload marker constants

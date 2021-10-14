@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/evansmurithi/nuclei/v2/pkg/model/types/severity"
+	"github.com/onaio/nuclei/v2/pkg/model/types/severity"
 )
 
 // TagFilter is used to filter nuclei templates for tag based execution

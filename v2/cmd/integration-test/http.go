@@ -12,7 +12,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/evansmurithi/nuclei/v2/core/testutils"
+	"github.com/onaio/nuclei/v2/core/testutils"
 )
 
 var httpTestcases = map[string]testutils.TestCase{
